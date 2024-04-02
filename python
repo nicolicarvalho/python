@@ -1,3 +1,4 @@
+  SENHA
 senha = "1234"
 
 qsenha = input("Digite sua senha:" )
@@ -7,3 +8,15 @@ if (senha == qsenha):
 else:
     print("acesso negado") 
 
+
+
+MAÇA
+
+maca = int()
+qmaca = int(input("digitea quantia e maças que deseja comprar"))
+
+if gmaça < 12:
+    maca = 0.30 
+else:
+    maca = 0.25
+    print ("O valor total é", qmaca * maca)
