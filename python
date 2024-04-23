@@ -20,3 +20,12 @@ if gmaça < 12:
 else:
     maca = 0.25
     print ("O valor total é", qmaca * maca)
+
+
+
+
+
+RANGE
+
+for i in range(1,11):
+    print(i)
