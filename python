@@ -29,3 +29,18 @@ RANGE
 
 for i in range(1,11):
     print(i)
+
+
+
+
+listafrutas=["morango","laranja","banana"]
+frutas="uva"
+print(listafrutas[1])
+print(frutas[1])
+print(listafrutas[2][0])
+listafrutas.append("abacaxi")
+print(listafrutas)
+listafrutas. remoto("banana")
+print*(listafrutas)
+listafrutas.sort()
+print(listafrutas)
