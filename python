@@ -126,3 +126,41 @@ with open("arquivo.txt","r") as f:
 with open("arquivo.txt2","r") as f:
     f=f.readline()
     print(f)
+
+
+
+
+
+
+
+
+
+
+def retangulo(tipoR, largura,altura):
+    r=0
+    if tipoR == "Área":
+        r= largura * altura
+    elif tipoR == "Perímetro":
+        r=2*(largura + altura)
+    return r 
+
+def circulo(tipoR, raio):
+    r=0
+    if tipoR == "Área":
+       r= r * r
+    elif tipoR == "Perímetro":
+        r=2*(tipoR + raio)
+    return r
+    a=retangulo("area"15,4.5)
+          
+    
+def verifica_resultado(largura, altura, raio):
+    area_ret = retangulo("Área", largura, altura)
+    perimetro_ret = retangulo("Perímetro", largura, altura)
+    area_circ = circulo("Área", raio)
+    perimetro_circ = circulo("Perímetro", raio)
+    
+    print(f"Retângulo: Área = {area_ret}, Perímetro = {perimetro_ret}")
+    print(f"Círculo: Área = {area_circ:.2f}, Perímetro = {perimetro_circ:.2f}")
+
+    verifica_resultado(8,12,5)
